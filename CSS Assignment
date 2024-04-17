@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled HTML Document</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #f2f2f2;
+        padding: 10px;
+        text-align: center;
+    }
+    nav {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    section {
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Styled HTML Document</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget velit sit amet turpis dapibus consequat. Sed interdum mi nec odio fermentum, vitae hendrerit dolor fermentum.</p>
+    </section>
+    <section>
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget velit sit amet turpis dapibus consequat. Sed interdum mi nec odio fermentum, vitae hendrerit dolor fermentum.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
