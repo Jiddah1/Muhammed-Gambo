@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Layout with Images</title>
+<style>
+    /* Base styles */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 90%;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .container {
+            width: 100%;
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Responsive Layout with Images</h1>
+</header>
+<div class="container">
+    <img src="https://via.placeholder.com/800x400" alt="Image 1">
+    <img src="https://via.placeholder.com/600x200" alt="Image 2">
+    <p>This is a responsive layout example with images for my Frontend Lessons at Access Bank ,Elite CareerEx Training.</p>
+</div>
+</body>
+</html>
